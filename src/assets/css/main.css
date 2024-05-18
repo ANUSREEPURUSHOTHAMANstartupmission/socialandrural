@@ -947,7 +947,7 @@ figure{
 
 
 .section-space {
-  padding-top: 120px;
+  padding-top: 110px;
   padding-bottom: 120px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -964,7 +964,7 @@ figure{
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .section-space {
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 60px;
   }
 }
