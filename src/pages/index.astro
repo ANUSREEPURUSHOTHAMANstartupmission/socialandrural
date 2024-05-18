@@ -1,0 +1,167 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Speakers from '../components/Speakers.svelte';
+import ProgramsList from '../components/ProgramsList.svelte';
+
+---
+
+<Layout  title="Kerala Startup Mission">
+	
+	<div>
+ 
+		<div class="backtotop-wrap cursor-pointer">
+		   <svg class="backtotop-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+			  <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+		   </svg>
+		</div>
+	   
+	 <div class="fix">
+		<div class="offcanvas__info">
+		   <div class="offcanvas__wrapper">
+			  <div class="offcanvas__content">
+				 <div class="offcanvas__top mb-40 d-flex justify-content-between align-items-center">
+				   
+					<div class="offcanvas__close">
+					   <button>
+						  <i class="fal fa-times"></i>
+					   </button>
+					</div>
+				 </div>
+				 <div class="mobile-menu fix mb-40"></div>
+			  </div>
+		   </div>
+		</div>
+	 </div>
+	 <div class="offcanvas__overlay"></div>
+	 <div class="offcanvas__overlay-white"></div>
+	 
+  
+	 <header>
+		<div id="" class="header-area header-style-two">
+		   <div class="large-container">
+			  <div class="mega-menu-wrapper">
+				 <div class="header-main">
+					<div class="header-left">
+					   <div class="header-logo md:w-36 w-28">
+						<a >
+							<img src="/img/logo-white.svg" class=" md:w-24 w-20" alt="header logo">
+						 </a>
+					   </div>                     
+					</div>                  
+					<div class="header-right d-flex justify-content-end">
+					   <div class="mean__menu-wrapper d-none d-lg-block">
+						  <div class="main-menu">
+							 <nav id="mobile-menu">
+								<ul>
+								   <li class="has-dropdown">
+									  <a href="/">Home</a>
+									
+								   </li>  
+								   <li class="has-dropdown">
+									<a  target="_blank" href="https://startupmission.kerala.gov.in/">KSUM</a>
+								  
+								 </li>  
+								   <li>
+									  <a href="#contact">Contact</a>
+								   </li>
+								  
+								</ul>
+							 </nav>
+							 
+						  </div>
+					   </div>
+					  
+					  
+					  
+					   <div class="header__hamburger d-xl-none my-auto">
+						  <div class="sidebar__toggle">
+							 <a class="bar-icon" href="javascript:void(0)">
+								<i class="fa-light fa-bars-sort"></i>
+							 </a>
+						  </div>
+					   </div>
+					</div>
+				 </div>
+			  </div>
+		   </div>
+		</div>
+	 </header>
+  
+  
+   <main>
+	  <main class="py-24 md:min-h-screen flex flex-col items-center justify-center" >
+		 <div class="absolute -z-10 w-full h-full top-0 left-0 bg-[#07071d] bg-opacity-90"></div>
+		<div class="absolute -z-20 bg-cover bg-center bg-no-repeat w-full h-full top-0 left-0" style="background-image:url('/img/bg.jpg')"></div>  
+	
+		<!-- <div class=" absolute top-0">
+		</div> -->
+  
+		<div class="container mx-auto text-white p-4 py-8">
+		   <div class=" py-10">
+		   <!-- <img  src="/img/rink1.svg " class="  absolute top-10 w-32 z-50"> -->
+  
+			  <h1 class=" md:text-9xl text-5xl  font-bold text-white">Social and Rural Impact</h1>
+			  <h1 class="md:text-6xl text-4xl font-semibold py-5 text-white"></h1>
+			  <p class="mb-35 wow fadeInLeft text-white md:w-3/5 w-full" data-wow-delay=".5s">The world faces a multitude of challenges, from
+				environmental issues to economic disparities. But amidst
+				these difficulties, there's a spark of hope. Technology is
+				fueling innovative solutions, and we believe
+				entrepreneurship is a powerful force for positive impact.
+				Here, we support your journey to turn your ideas into reality
+				because together, we can build a better tomorrow.</p>
+			</div>
+  
+		   <a class="primary-btn-1 btn-hover"  href="#eoi"><i class="icon-right-arrow"></i>
+			  <span style="top: 147.172px; left: 108.5px;"></span>
+		   </a>
+	  
+		</div>
+	  
+  </main>
+
+  <section class="blog-two-section section-space" id="eoi">
+	<div class="small-container">
+	   <div class="blog-two-title-area  mb-8">
+		  <div class="title-box wow fadeInLeft" data-wow-delay=".5s">
+			 <span class="section-sub-title">EOI<span></span></span>
+			 <h3 class="section-title mt-10">Join our Efforts to Make an Impact</h3>
+		  </div>
+		  <!-- <a class="primary-btn-1 btn-hover" href="blog-grid.html">
+			 view all &nbsp; | <i class="icon-right-arrow"></i>
+			 <span style="top: 147.172px; left: 108.5px;"></span>
+		  </a> -->
+	   </div>
+	   <div class="row">
+		  <div class="col-xxl-8 col-xl-8 col-lg-12">
+			 <div class="blog-style-two">
+				<a class="blog-image w-img" href="agritech">
+				   <img src="/img/i1.jpg" alt="">
+				</a>
+				<div class="blog-content-area items-center justify-center">
+				   <!-- <div class="post-meta">
+					  <span class="p-relative"><a href="blog-details.html"><i class="fal fa-user"></i> By Admin</a></span>
+					  <span class="p-relative"><a href="blog-details.html"><i class="fal fa-calendar-alt"></i>28 Nov, 2023</a></span>
+				   </div> -->
+				   <h5 class="text-3xl it"><a href="blog-details.html">Inviting All Agritech Startups</a></h5>
+				   <p class="blog-text">
+					Do You Have the Solution that Farmers Need? Express Your Interest Here !!
+				</p>
+				   <a class="primary-btn-5 btn-hover" href="agritech">
+					  Read MORE &nbsp; | <i class="icon-right-arrow"></i>
+					  <span style="top: 147.172px; left: 108.5px;"></span>
+				   </a>
+				  
+				</div>
+			 </div>
+		  </div>
+		  
+	   </div>
+	</div>
+  </section>
+
+
+
+
+ 
+</Layout>
