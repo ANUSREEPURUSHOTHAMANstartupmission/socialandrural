@@ -3076,7 +3076,7 @@ h1.banner-title {
 
 .about-us-image-area .icon-box i {
   color: #fff;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .about-us-image-area .icon-box h4 {
@@ -3740,8 +3740,8 @@ transform: skewX(-25deg);
 .choose-area-icon-box .icon-box {
   color: var(--theme-color);
   background: #fff;
-  padding: 20px;
-  font-size: 50px;
+  padding: 10px;
+  font-size: 15px;
   display: inline-block;
 }
 
